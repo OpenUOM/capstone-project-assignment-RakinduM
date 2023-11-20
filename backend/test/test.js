@@ -152,7 +152,7 @@ describe("Student Endpoints", () => {
   });
 
   it("POST /editStudent should edit a Student", async () => {
-    jest.setTimeout(60000);
+    
     // add new teacher
     await requestWithSupertest.post("/editStudent").send({
       "id": 20002,
