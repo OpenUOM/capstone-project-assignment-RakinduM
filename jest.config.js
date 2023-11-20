@@ -2,7 +2,7 @@ module.exports = async () => {
     return {
       verbose: false,
       testTimeout: 30000,
-      maxWorkers: 0
+      maxWorkers: 1
     };
   };
   
