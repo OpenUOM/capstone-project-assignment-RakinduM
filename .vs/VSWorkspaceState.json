@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend\\seeds",
+    "\\frontend",
+    "\\frontend\\src",
+    "\\frontend\\src\\app",
+    "\\frontend\\src\\app\\components",
+    "\\frontend\\src\\app\\components\\add-new-teacher",
+    "\\frontend\\src\\app\\components\\edit-teacher"
+  ],
+  "SelectedNode": "\\frontend\\src\\app\\components\\add-new-teacher\\add-new-teacher.component.ts",
+  "PreviewInSolutionExplorer": false
+}

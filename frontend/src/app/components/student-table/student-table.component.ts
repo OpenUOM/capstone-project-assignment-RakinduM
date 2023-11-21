@@ -23,7 +23,15 @@ export class StudentTableComponent implements OnInit {
 
   addNewStudent(){
     this.router.navigate(['addStudent'])
-  }
+    }
+
+  initializeDB() {
+    this.service.initializeDB().subscribe((response) => {
+        console.log('DB is Initialized')
+    }, (error) => {
+        console.log('ERROR - ', error)
+       })
+    }
 
   editStudent(id){
     const navigationExtras: NavigationExtras = {
